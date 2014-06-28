@@ -125,3 +125,15 @@
 	/* @embed */
 	background-image: url(images/loading-ltr.gif);
 }
+
+/* Content */
+
+/* HACK: undo overflow: hidden; from MW CSS to work around IE hasLayout issue */
+.ve-ce-surface h1,
+.ve-ce-surface h2,
+.ve-ce-surface h3,
+.ve-ce-surface h4,
+.ve-ce-surface h5,
+.ve-ce-surface h6 {
+	overflow: visible;
+}
