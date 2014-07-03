@@ -13,3 +13,8 @@
 .mw-ext-cite-error {
 	display: none;
 }
+
+/* IE HACK: force hasLayout so the <sup>'s box gets measured correctly */
+.ve-ce-mwReferenceNode {
+	display: inline-block;
+}
